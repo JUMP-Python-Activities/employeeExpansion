@@ -4,7 +4,7 @@ from io import StringIO
 import datetime
 
 from employeeExpansion import employee
-class TesteEmployeeExpansion(unittest.TestCase):
+class TestEmployeeExpansion(unittest.TestCase):
 
     @patch('sys.stdin', StringIO('3\nSpongebob Squarepants\n34\nPatrick Star\n32\nSquidward Tentacles\n38'))
     def test_dict_contents(self):
